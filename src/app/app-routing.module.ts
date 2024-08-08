@@ -6,22 +6,7 @@ import { EditarPersonaComponent } from './Core/Presentacion/Persona/editar-perso
 import { VistaPrincipalComponent } from './Core/Presentacion/Vistas/vista-principal/vista-principal.component';
 
 const routes: Routes = [
-  {
-    path: '',
-    component: VistaPrincipalComponent
-  },
-  {
-    path: 'personas',
-    component: ListaPersonaComponent
-  },
-  {
-    path: 'personas/agregar',
-    component: AgregarPersonaComponent
-  },
-  {
-    path:'personas/:id',
-    component: EditarPersonaComponent
-  }
+  
 ];
 
 @NgModule({
